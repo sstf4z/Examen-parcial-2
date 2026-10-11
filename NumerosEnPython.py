@@ -1,0 +1,13 @@
+import random
+print ("numeros en python" )
+numero = int (input("ingrese un numero: "))
+decimal = float (input("ingrese un numero decimal: "))
+print("el numero entero es:", numero)
+print("el numero decimal es:", decimal)
+print ("el tipo de numero entero es:", type(numero))
+print ("el tipo de numero decimal es:", type(decimal))
+complejo = complex (numero, decimal)
+print ("el numero complejo es:", complejo)
+print ("tu numero convertido a complejo es: ", type(complejo))
+aleatorio = random.randint(1, 10)
+print ("el numero aleatorio es:", aleatorio)
