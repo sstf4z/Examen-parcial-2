@@ -1,0 +1,13 @@
+import random
+print ("tipos de numeros" )
+numero = int (input("ingrese su edad: "))
+decimal = float (input("ingrese su estatura en metros: "))
+print("tu edad es:", numero)
+print("tu estatura es:", decimal)
+print ("el tipo de numero de tu edad es:", type(numero))
+print ("el tipo de numero de tu estatura es:", type(decimal))
+complejo = complex (numero, decimal)
+print ("el numero complejo es:", complejo)
+print ("tu numero convertido a complejo es: ", type(complejo))
+aleatorio = random.randint(1, 1000)
+print ("el numero aleatorio es:", aleatorio)
